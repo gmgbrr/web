@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #a {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: relative;
+        transition: height 0.5s, width 0.5s;
+    }
+
+</style>
+<body>
+    <div id="a"></div>
+</body>
+<script>
+    document.getElementById('a').addEventListener('click', function(){
+        document.getElementById('a').style.width = '250px';
+        document.getElementById('a').style.height = '400px';
+    })
+</script>
+</html>

@@ -1,0 +1,86 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 85px;
+    background-color: #0d0e0e;
+    box-shadow: 0px 1px 3px rgba(13, 14, 14, 0.3);
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+#search-bar-box {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+#search-bar {
+    background-color: #ebebeb;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.302);
+    padding-left: 20px;
+    padding-right: 15px;
+    outline: 0;
+    height: 48%;
+    border-radius: 30px;
+    border: none;
+    width: 450px;
+    transition: background-color 0.15s;
+}
+
+#search-bar:hover,
+#search-bar:focus {
+    background-color: #d6d6d6;
+}
+
+#search-button {
+    width: 41px;
+    height: 48%;
+    border: none;
+    border-radius: 100%;
+    background-image: url("icons/lupa.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ebebeb;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.15s;
+}
+
+#search-button:hover {
+    background-color: #cfcfcf;
+}
+
+#search-button:active {
+    background-color: rgb(194, 194, 194);
+}
+
+/* BOTAO POR ALEATORIO */
+
+#random-box {
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 15px;
+}
+
+#dice-btn {
+    border: none;
+    background-color: transparent;
+    border-radius: 100%;
+    padding: 9px 4px;
+    transition: background-color 0.15s;
+}
+
+#dice-btn:hover {
+    background-color: #ffffff10;
+}
+
+#dice-btn:active {
+    background-color: #ffffff1f;
+}
+
+#dice-btn img {
+    width: 75%;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bass Tabs</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+    <script src="data.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="metronome.css">
+    <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon">
+</head>
+
+<body onload="load()">
+
+    <header>
+        <div id="search-bar-box">
+            <input type="text" id="search-bar" placeholder="Search...">
+            <button id="search-button"></button>
+        </div>
+
+        <div id="random-box">
+            <button id="dice-btn"><img src="icons/dados.png" alt="img"></button>
+        </div>
+    </header>
+
+    <div id="blur" onclick="closeTab()"></div> <!-- fundo escuro quando abre a tablatura -->
+
+    <div id="cifras"></div> <!-- tela quando abre a tablatura -->
+
+    <div id="metronome-bg">
+        <div id="metronome-box">
+            <img src="icons/close-2.svg" id="metronome-close" onclick="displayMetronomo()"></img>
+            <p id="metronome-text">60</p>
+            <p id="bpm-text">BPM</p>
+            <input type="range" min="20" max="240" value="60" id="bpm" step="5">
+            <audio src="audios/sound-A-regular.wav" id="audio-regular"></audio>
+            <audio src="audios/sound-A-break.wav" id="audio-break"></audio>
+            <button id="metronome-play"><img src="icons/play.png" alt="img" id="play-img"></button>
+            <div style="position: absolute; bottom: 66px;">
+                <select id="select-sons">
+                    <option value="audio-a">Audio 1</option>
+                    <option value="audio-b">Audio 2</option>
+                    <option value="audio-c">Audio 3</option>
+                </select>
+                <input type="range" min="0" max="1" value="0.5" step="0.02" id="volume-controller">
+            </div>
+            <div id="break-box">
+                <button class="loop-break" onclick="loopBreak = 2">2</button>
+                <button class="loop-break" onclick="loopBreak = 3">3</button>
+                <button class="loop-break" onclick="loopBreak = 4">4</button>
+                <button class="loop-break" onclick="loopBreak = 5">5</button>
+                <button class="loop-break" onclick="loopBreak = 6">6</button>
+                <button class="loop-break" onclick="loopBreak = 6">7</button>
+            </div>
+        </div>
+    </div>       
+
+    <div id="metronome-btn" onclick="displayMetronomo()"><img src="icons/metronome.png" alt="img" id="metronome-btn-img"></div>
+
+    <div id="main">
+        <div id="filters-box">
+            <button class="filter" onclick="load()">Songs</button>
+            <button class="filter" onclick="sendArtists()">Artists</button>
+        </div>
+
+        <nav id="grid"></nav> <!-- parte principal das musicas | elementos enviados por js -->
+    </div>
+</body>
+</html>
