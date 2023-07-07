@@ -1,6 +1,6 @@
 var musicas = {
     data: [
-        {
+        {/* 505 */
             nome: "505",
             autor: "Arctic Monkeys",
             imagem: "song-images/favourite-wrost-nightmare.jpg",
@@ -44,7 +44,7 @@ var musicas = {
             original: `https://youtu.be/qU9mHegkTc4`,
             guide: `https://youtu.be/UIqm-dLcojE`,
         },
-        {
+        {/* do i wanna know */
             nome: "Do I Wanna Know",
             autor: "Arctic Monkeys",
             imagem: "song-images/am.jpeg",
@@ -204,7 +204,7 @@ var musicas = {
             original: "https://youtu.be/bpOSxM0rNPM",
             guide: "https://youtu.be/jKSX-n1F3L0",
         },
-        {
+        {/* zitti e buoni */
             nome: "ZITTI E BUONI",
             autor: "Måneskin",
             imagem: "song-images/teatro-dira.jpg",
@@ -311,7 +311,7 @@ var musicas = {
             original: `https://youtu.be/QN1odfjtMoo`,
             guide: `https://youtu.be/48HCTt97bls`,
         },
-        {
+        {/* seven nation army */
             nome: "Seven Nation Army",
             autor: "The White Stripes",
             imagem: "song-images/elephant.jpg",
@@ -443,7 +443,7 @@ var musicas = {
             original: "https://youtu.be/D_QLxj8jCF0",
             guide: "https://youtu.be/8npszAZN4YA",
         },
-        {
+        {/* feel good inc */
             nome: "Feel Good Inc.",
             autor: "Gorillaz",
             imagem: "song-images/feel-good-inc.jpg",
@@ -566,7 +566,7 @@ var musicas = {
             original: "https://youtu.be/ZxVw7bvMd3s",
             guide: "https://youtu.be/pbzoW8YeAsc",
         },
-        {
+        {/* money */
             nome: "Money",
             autor: "Pink Floyd",
             imagem: "song-images/dark-side-of-the-moon.jpg",
@@ -749,7 +749,7 @@ var musicas = {
             original: "https://youtu.be/cpbbuaIA3Ds",
             guide: "https://youtu.be/-Mc7OKu9o0g",
         },
-        {
+        {/* come as your are */
             nome: "Come As You Are",
             autor: "Nirvana",
             imagem: "song-images/nevermind.jpg",
@@ -918,7 +918,7 @@ var musicas = {
             original: "https://youtu.be/vabnZ9-ex7o",
             guide: "https://youtu.be/KHRZbY_Deqo",
         },
-        {
+        {/* nib */
             nome: "N.I.B.",
             autor: "Black Sabbath",
             imagem: "song-images/black-sabbath.webp",
@@ -1123,7 +1123,7 @@ var musicas = {
             original: "https://youtu.be/vwLQw_95hX0",
             guide: "https://youtu.be/zLs9S1h8brE",
         },
-        {
+        {/* day tripper */
             nome: "Day Tripper",
             autor: "The Beatles",
             imagem: "song-images/one.jpg",
@@ -1269,7 +1269,7 @@ var musicas = {
             original: "https://youtu.be/2IbPn5j2YKk",
             guide: "https://youtu.be/_2WfSRpQeXQ",
         },
-        {
+        {/* r u mine */
             nome: "R U MINE",
             autor: "Arctic Monkeys",
             imagem: "song-images/am.jpeg",
@@ -1427,7 +1427,7 @@ var musicas = {
             original: "https://youtu.be/ngzC_8zqInk",
             guide: "https://youtu.be/8daTKOT3rJQ",
         },
-        {
+        {/* iron man */
             nome: "Iron Man",
             autor: "Black Sabbath",
             imagem: "song-images/paranoid.jpg",
@@ -1776,7 +1776,7 @@ var musicas = {
             original: "https://youtu.be/b3-QqGVt-tM",
             guide: "https://youtu.be/dY8JG8vH7EY",
         },
-        {
+        {/* walk this way */
             nome: "Walk This Way",
             autor: "Aerosmith",
             imagem: "song-images/toys-in-the-attic.jpg",
@@ -1969,7 +1969,7 @@ var musicas = {
             original: "https://youtu.be/4c8O2n1Gfto",
             guide: "https://youtu.be/P5jORZZEOj4",
         },
-        {
+        { /* cant stop */
             nome: "Can't Stop",
             autor: "RHCP",
             imagem: "song-images/by-the-way.jpg",
@@ -2293,9 +2293,9 @@ var musicas = {
             original: "https://youtu.be/8DyziWtkfBw",
             guide: "https://youtu.be/0-8h3vbcjKE ",
         },
-        {
+        {/* bella ciao */
             nome: "Bella Ciao",
-            autor: "Desconhecido",
+            autor: "Unknown",
             imagem: "song-images/bella-ciao.jpg",
             imgArtist: "artist-images/unknown.webp",
             tab: `
@@ -2356,7 +2356,7 @@ var musicas = {
             original: "https://youtu.be/zWas7fEBL2g",
             guide: "https://youtu.be/t-Z19tPPTbE",
         },
-        {
+        {/* for whom the bell tolls */
             nome: "For Whom The Bell Tolls",
             autor: "Metallica",
             imagem: "song-images/ride-the-lightning.webp",
@@ -2616,7 +2616,7 @@ var musicas = {
             original: "https://youtu.be/B_HSa1dEL9s",
             guide: "https://youtu.be/h-a9PyFS7kc",
         },
-        {
+        {/* kick */
             nome: "KICK BACK",
             autor: "Kenshi Yonezu",
             imagem: "song-images/kick-back.jpg",
@@ -2625,7 +2625,7 @@ var musicas = {
             original: "",
             guide: "",
         },
-        {
+        {/* why d you onluy call me */
             nome: "Why'd You Only Call Me...",
             autor: "Arctic Monkeys",
             imagem: "song-images/am.jpeg",
@@ -2727,7 +2727,7 @@ var musicas = {
             guide: "",
             
         },
-        {
+        {/* pink panther */
             nome: "Pink Panther",
             autor: "Henry Mancini",
             imagem: "song-images/pink-panther.jpg",
@@ -2737,7 +2737,7 @@ var musicas = {
             guide: "",
             
         },
-        {
+        {/* i wanna be your slave */
             nome: "I WANNA BE YOUR SLAVE",
             autor: "Måneskin",
             imagem: "song-images/teatro-dira.jpg",
@@ -2820,7 +2820,7 @@ var musicas = {
             original: "https://youtu.be/yOb9Xaug35M",
             guide: "https://youtu.be/PpAZKshtm00",
         },
-        {
+        {/* aerials */
             nome: "Aerials",
             autor: "System of a Down",
             imagem: "song-images/toxicity.jpg",
@@ -2871,7 +2871,7 @@ var musicas = {
             original: "https://youtu.be/zk62uUqcNyo",
             guide: "https://youtu.be/xXskrsghy6Y",
         },
-        {
+        {/* the less you know the better */
             nome: "The Less You Know The...",
             autor: "Tame Impala",
             imagem: "song-images/currents.jpg",
@@ -3149,7 +3149,7 @@ var musicas = {
             original: "https://youtu.be/2SUwOgmvzK4",
             guide: "https://youtu.be/7yKUaWBfau0",
         },
-        {
+        {/* balaclava */
             nome:"Balaclava",
             autor:"Arctic Monkeys",
             imagem:"song-images/favourite-wrost-nightmare.jpg",
@@ -3274,7 +3274,7 @@ var musicas = {
             original:"https://youtu.be/GeyA2L5LNBk",
             guide:"https://youtu.be/PXF9UQ1X2pM",
         },
-        {
+        {/* mammamia */
             nome:"MAMMAMIA",
             autor:"Måneskin",
             imagem:"song-images/mamammia.jpg",
@@ -3283,7 +3283,7 @@ var musicas = {
             original:"https://youtu.be/WTKrJ-nEy40",
             guide:"",
         },
-        {
+        { /* californication */
             nome:"Californication",
             autor:"RHCP",
             imagem:"song-images/californication.jpg",
@@ -3601,7 +3601,7 @@ var musicas = {
             original:"https://youtu.be/YlUKcNNmywk",
             guide:"https://youtu.be/dpdBdx3g7jQ",
         },
-        {
+        { /* teddy picker */
             nome: "Teddy Picker",
             autor: "Arctic Monkeys",
             imagem: "song-images/favourite-wrost-nightmare.jpg",
@@ -3707,7 +3707,6 @@ var musicas = {
         }
     ]
 };
-
 /* 
     nome: "",
     autor:"",

@@ -35,27 +35,6 @@ header {
     background-color: #d6d6d6;
 }
 
-#search-button {
-    width: 41px;
-    height: 48%;
-    border: none;
-    border-radius: 100%;
-    background-image: url("icons/lupa.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #ebebeb;
-    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.15s;
-}
-
-#search-button:hover {
-    background-color: #cfcfcf;
-}
-
-#search-button:active {
-    background-color: rgb(194, 194, 194);
-}
-
 /* BOTAO POR ALEATORIO */
 
 #random-box {
