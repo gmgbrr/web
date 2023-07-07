@@ -56,7 +56,8 @@ function showTab(id) {
     document.getElementById('cifras').style.display = "flex";
     document.getElementById('blur').style.display = "block";
 
-    document.getElementById('cifras').innerHTML =
+    if (musicas.data[id].tab != ``){
+        document.getElementById('cifras').innerHTML =
         `<div class="info-tabs">
             <p class="tab-title">${musicas.data[id].nome}</p>
             <p class="tab-author">${musicas.data[id].autor}</p>
@@ -72,6 +73,24 @@ function showTab(id) {
             <pre>${musicas.data[id].tab}</pre>
         </div>
         <button class="close" onclick='closeTab()'></button>`;
+    } else {
+        document.getElementById('cifras').innerHTML =
+        `<div class="info-tabs">
+            <p class="tab-title">${musicas.data[id].nome}</p>
+            <p class="tab-author">${musicas.data[id].autor}</p>
+            <div class="song-buttons">
+                <form target="_blank" action="${musicas.data[id].original}"><button class="song-button">Original Song</button></form>
+                <form target="_blank" action="${musicas.data[id].guide}"><button class="song-button">Guide Song</button></form>
+            </div>
+        </div>
+
+        <div id="vl"></div>
+
+        <div class="tabs">
+            <p id="no-tabs">No tabs for this song...</p>
+        </div>
+        <button class="close" onclick='closeTab()'></button>`;
+    }   
 }
 
 /* FECHA A TABLATURA */
@@ -248,6 +267,10 @@ document.getElementById('search-bar').addEventListener('input', function () {
                         </div>`;
         }
     }
+    if (codigo == '') {
+        codigo = `<p id="no-results">No results for "${this.value}".</p>`
+    }
+
     document.getElementById('grid').innerHTML = codigo;
 })
 

@@ -3704,6 +3704,15 @@ var musicas = {
             `,
             original:"https://youtu.be/VredAgNScOw",
             guide:"https://youtu.be/Qy-2gMBxIzA",
+        },
+        {/* juice box */
+            nome: "Juicebox",
+            autor:"The Strokes",
+            imagem:"song-images/first-impressions.jpg",
+            imgArtist:"artist-images/the-strokes.jpg",
+            tab: ``,
+            original:"https://youtu.be/Uc9S9qfL7Ts",
+            guide:"https://youtu.be/AhpJSASN3tU",
         }
     ]
 };
