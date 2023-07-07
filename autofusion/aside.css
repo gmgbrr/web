@@ -1,0 +1,139 @@
+
+aside {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.filter-box {
+    width: 212px;
+    background-color: rgb(216, 216, 216);;
+    padding: 10px 5px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.2);
+}
+
+.select-box {
+    padding-top: 16px;
+    margin-left: 7px;
+}
+
+.select-box:last-child {
+    padding-top: 16px;
+}
+
+.selects {
+    outline: none;
+    padding: 3px 3px 0px 2px;
+    color: rgb(107, 107, 107);
+    width: 150px;
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#filter-title {   
+    padding-top: 4px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.min-max {
+    width: 150px;
+    outline: none;
+    margin-bottom: 9px;
+}
+
+.min-max:last-child {
+    margin-bottom: 10px;
+}
+
+.sliders {
+    display: flex;
+    flex-direction: column;   
+}
+
+#botao-preco {
+    border-color: rgb(118, 118, 118);
+    border-width: thin;
+    border-style: solid;
+    border-radius: 4px;
+    color: rgb(78, 78, 78);
+    background-color: white;
+    padding: 3px 34px;
+    margin-left: 3px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+    transition: background-color 0.15s;
+}
+
+#botao-preco:hover {
+    background-color: rgb(240, 240, 240);
+    border-color: rgb(143, 143, 143);
+}
+
+#botao-preco:active {
+    background-color: rgb(216, 216, 216);
+}
+
+#outMin,
+#outMax {
+    font-size: 13px;
+    padding-left: 5px;
+    user-select: none; 
+}
+
+.container {
+    width: 220px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.2);
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    animation: slide 32s infinite;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(0);
+    }
+    30% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    55% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-200%);
+    }
+    80% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(-300%);
+    }
+}
+
+.wrapper img {
+    width: 100%;
+}
+
+#ad {
+    position: absolute;
+    width: 18px;
+    bottom: -2px;
+    right: 8px;
+}

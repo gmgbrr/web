@@ -1,0 +1,22 @@
+
+body {
+    margin:0px;
+    font-family: Roboto, sans-serif;
+}
+
+p {
+    margin: 0px;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

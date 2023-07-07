@@ -1,0 +1,104 @@
+
+#page-bottom {
+    height: 0px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    opacity: 0;
+} 
+
+#hr-1 {
+    margin: auto;
+    max-width: 100%;  
+    border-top: 0px;
+}
+
+#bottom-1 {
+    display: flex;
+    gap: 70px;
+}
+
+.bottom-icon {
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    transition: background-image 0.1s;
+}
+
+.bottom-icon-box {
+    border-radius: 100%;
+    transition: border-radius 0.1s, background-color 0.1s, padding 0.1s, margin 0.1s;
+    cursor: pointer;
+}
+
+.bottom-icon-box:hover {
+    padding: 15px 15px;
+    margin: -15px -15px;
+}
+
+/* ----------------------------------------------------------- */
+
+#fb {
+    background-image: url("icons/facebook-24.svg");
+}
+
+#fb-box:hover {
+    background-color: #4267B2;
+}
+
+#fb-box:hover #fb {
+    background-image: url("icons/facebook-24-white.svg");
+}
+
+/* ----- */
+
+#yt {
+    background-image: url("icons/youtube-24.svg");
+}
+
+#yt-box:hover {
+    background-color: red;
+}
+
+#yt-box:hover #yt {
+    background-image: url("icons/youtube-24-white.svg");
+}
+
+/* ------ */
+
+#ig {
+    background-image: url("icons/instagram-24.svg");
+}
+
+#ig-box:hover {
+    background-color: #E1306C;
+}
+
+#ig-box:hover #ig {
+    background-image: url("icons/instagram-24-white.svg");
+}
+
+/* ----------------- */
+
+#tt {
+    background-image: url("icons/twitter-24.svg");
+}
+
+#tt-box:hover {
+    background-color: #1DA1F2;
+}
+
+#tt-box:hover #tt {
+    background-image: url("icons/twitter-24-white.svg");
+}
+
+/* ---------------------------------------------------------- */
+
+.bottom-info:hover {
+    text-decoration: underline;
+    color: #0000EE;
+    cursor: pointer;
+}
