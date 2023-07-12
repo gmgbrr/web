@@ -14,7 +14,6 @@ header {
 #search-bar-box {
     display: flex;
     align-items: center;
-    gap: 7px;
 }
 
 #search-bar {
@@ -35,16 +34,17 @@ header {
     background-color: #d6d6d6;
 }
 
-/* BOTAO POR ALEATORIO */
+/* BOTAO DE WIDGETS DA HEADER */
 
-#random-box {
+#right-box {
     display: flex;
     position: absolute;
     right: 100px;
     top: 15px;
+    gap: 25px;
 }
 
-#dice-btn {
+.widget {
     border: none;
     background-color: transparent;
     border-radius: 100%;
@@ -52,14 +52,13 @@ header {
     transition: background-color 0.15s;
 }
 
-#dice-btn:hover {
+.widget:hover {
     background-color: #ffffff10;
 }
-
-#dice-btn:active {
+.widget:active {
     background-color: #ffffff1f;
 }
 
-#dice-btn img {
-    width: 75%;
+.widget img {
+    width: 70%;
 }
